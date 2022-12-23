@@ -1,0 +1,120 @@
+.body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  font-family: 'Work Sans';
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-evenly;
+  width: 80vw;
+  height: 100vh;
+  background: aqua;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+  height: 100vh;
+  background: darkcyan;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15vh;
+  width: 80vw;
+  background: skyblue;
+}
+
+.center {
+  display: flex;
+  position: absolute;
+  margin-top: 15vh;
+  width: 80vw;
+  justify-content: space-between;
+  height: 50vh;
+  background: indianred;
+}
+
+.lower {
+  display: flex;
+  position: absolute;
+  margin-top: 65vh;
+  width: 80vw;
+  justify-content: space-between;
+  height: 35vh;
+  background: gold;
+}
+
+.icon {
+  height: 15vh;
+  width: 15vh;
+  position: absolute;
+  background: yellowgreen;
+}
+
+.icon img {
+  height: 13vh;
+  width: 13vh;
+  padding: 1vh;
+}
+
+.header-text {
+  position: absolute;
+  margin-left: 15vh;
+  font-family: 'Work Sans';
+  font-size: 4vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center-left {
+  display: flex;
+  position: absolute;
+  height: 50vh;
+  width: 55vw;
+  background: rebeccapurple;
+}
+
+.center-right {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-left: 55vw;
+  height: 50vh;
+  width: 25vw;
+  justify-content: space-between;
+  background: darkolivegreen;
+}
+
+.lower-box {
+  display: flex;
+  width: 26.5vw;
+  height: 35vh;
+  background: pink;
+}
+
+.center-right-box {
+  display: flex;
+  height: 16vh;
+  width: 25vw;
+  background: aquamarine;
+}
+
+.sidebar-box {
+  display: flex;
+  height: auto;
+  width: 20vw;
+  background: tan;
+}
