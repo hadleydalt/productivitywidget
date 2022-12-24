@@ -14,7 +14,7 @@
   align-items: space-evenly;
   width: 80vw;
   height: 100vh;
-  background: aqua;
+  background: orange;
 }
 
 .sidebar {
@@ -81,10 +81,12 @@
 
 .center-left {
   display: flex;
-  position: absolute;
   height: 50vh;
   width: 55vw;
   background: rebeccapurple;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .center-right {
@@ -117,4 +119,63 @@
   height: auto;
   width: 20vw;
   background: tan;
+}
+
+.work-on {
+  display: flex;
+  height: 15vh;
+  border-radius: 15px;
+  width: 27vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.work-on-inner {
+  display: flex; 
+  flex-direction: column;
+  height: 10vh;
+  width: 10vw;
+  background: white;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.2));
+  padding-right: 0.5vw;
+}
+
+.work-on-inner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 10vh;
+  width: 6vw;
+}
+
+.work-on-inner-text-heading {
+  padding-top: 0.5vh;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.work-on-inner-text-sub {
+  padding-top: 1vh;
+  font-family: 'Work Sans';
+  font-size: 0.9vw;
+}
+
+.work-on-inner-heading {
+  padding-top: 0.5vh;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-size: 0.9vw;
+  color: black;
+  margin-left: 0.5vw;
+}
+
+.work-on-inner-sub {
+  padding-top: 1vh;
+  font-family: 'Work Sans';
+  font-size: 0.8vw;
+  color: gray;
+  margin-left: 0.5vw;
 }
